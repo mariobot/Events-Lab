@@ -13,8 +13,8 @@ namespace Events.Web.Controllers
         {
             var events = db.Events;
 
-            var upcomingEvents = db.Events.Where(x => x.StartDateTime > DateTime.Now);
-            var passedEvents = db.Events.Where(x => x.StartDateTime <= DateTime.Now);
+            var upcomingEvents = db.Events.Where(x => x.StartDateTime > DateTime.Now).ToList();
+            var passedEvents = db.Events.Where(x => x.StartDateTime <= DateTime.Now).ToList();
 
             return View(new UpcomingPassedEventsViewModel() {
                 UpcomingEvents = upcomingEvents,

@@ -1,0 +1,26 @@
+﻿@model Events.Data.Event
+
+<div class="col-md-4">
+    <div class="event-box">
+        <h2>@Model.Title</h2>
+        <span class="date">@Model.StartDateTime</span>
+        @if (Model.Duration != null)
+        {
+            <span class="duration">
+                (@Model.Duration.Value.ToString(@"hh\:mm") hours)
+            </span>
+        }
+        @if (Model.Author != null)
+        {
+            <span class="author">
+                Author: N/A
+            </span>
+        }
+        @if (Model.Location != null)
+        {
+            <span class="location">
+                Location: @Model.Location
+            </span>
+        }
+    </div>
+</div>
