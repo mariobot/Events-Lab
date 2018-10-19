@@ -1,0 +1,16 @@
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Events.Data.dll.config
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Events.Data.dll
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Events.Data.pdb
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\EntityFramework.dll
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\EntityFramework.xml
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\obj\Debug\Events.Data.csprojAssemblyReference.cache
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\obj\Debug\Events.Data.csproj.CoreCompileInputs.cache
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\obj\Debug\Events.Data.csproj.CopyComplete
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\obj\Debug\Events.Data.dll
+C:\Users\mabotero\source\repos\Events-Lab\Events.Data\obj\Debug\Events.Data.pdb
