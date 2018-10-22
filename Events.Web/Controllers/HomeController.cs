@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Events.Data;
 using Events.Web.Models;
 
 namespace Events.Web.Controllers
@@ -20,6 +21,13 @@ namespace Events.Web.Controllers
                 UpcomingEvents = upcomingEvents,
                 PassedEvents = passedEvents
             });
+        }
+
+        public ActionResult EventsDetailsById(int id)
+        {
+            Event eventDetails = db.Events.Where(x => x.Id == id).First();
+
+            return PartialView("_EventDetails", eventDetails);
         }
     }
 }
