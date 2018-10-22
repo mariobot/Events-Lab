@@ -17,10 +17,12 @@ namespace Events.Data
 
         public int Id { get; set; }
 
-        [Required]
-        [MaxLength(200)]
+        [Required(ErrorMessage = "Event title is required")]
+        [StringLength(200,ErrorMessage ="",MinimumLength =1)]
+        [Display(Name ="Title *")]
         public string Title { get; set; }
 
+        [DataType(DataType.Date)]
         [Required]
         public DateTime StartDateTime { get; set; }
 
@@ -35,6 +37,7 @@ namespace Events.Data
         [MaxLength(200)]
         public string Location { get; set; }
 
+        [Display(Name = "Is Public ?")]
         public bool IsPublic { get; set; }
 
         public virtual ICollection<Comment> Comments { get; set; }
