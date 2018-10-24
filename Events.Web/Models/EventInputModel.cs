@@ -23,6 +23,7 @@ namespace Events.Web.Models
 
         [DataType(DataType.Date)]
         [Required]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime StartDateTime { get; set; }
         
         [DataType(DataType.Duration)]

@@ -2,7 +2,7 @@
 
 <div class="col-md-4">
     <div class="event-box">
-        <h2>@Model.Title</h2>
+        <h2>@Model.Title</h2><a href="@Url.Action("Edit","Events",new { id = Model.Id })"><span class="glyphicon glyphicon-edit"></span></a>
         <span class="date">@Model.StartDateTime</span>
         @if (Model.Duration != null)
         {
